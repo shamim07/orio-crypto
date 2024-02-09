@@ -1,0 +1,60 @@
+.footer-contain{
+    display: flex;
+    padding-top: 40px;
+    justify-content: start;
+    gap: 50px;
+}
+.f1{
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
+.f2{
+    flex: 0 0 auto;
+    width: 25%;
+}
+.f3{
+    flex: 0 0 auto;
+    width: 17%;
+}
+.f4{
+    flex: 0 0 auto;
+    width: 16.66666667%;
+}
+h4 {
+    font-weight: 700;
+    font-size: 22px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-family: "Urbanist", sans-serif
+}
+a{
+    color: rgb(173, 169, 178);
+}
+a:hover{color: white}
+.threelogo{
+    display: flex; 
+    gap: 20px; 
+    
+}
+.con1,.con2,.con3{
+    background-color: aliceblue;
+    border-radius: 50%;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    color: black;
+}
+.con1:hover{
+    background-color: rgb(226, 226, 219);
+}
+.con2:hover{
+    background-color: rgb(200, 200, 195);
+}
+.con3:hover{
+    background-color: rgb(163, 163, 158);
+}
+

@@ -1,0 +1,58 @@
+.inv2{
+    background-color: #0A0819;
+}
+.imgobjectic{
+    display: flex;
+   padding-top: 70px;
+}
+.imgmb{
+    flex: 0 0 auto;
+    width: 41.66666667%;
+  }
+  .objectiv{
+    flex: 0 0 auto;
+    width: 58.33333333%;
+  }
+  .objectiv, span{-webkit-text-fill-color: transparent;
+    background: linear-gradient(138.01deg,#6e44d9 6.64%,#1876c5 103.21%);
+    background-clip: text;
+  }
+ h2{
+    color: #ece8f0;
+   font-size: 44px;
+  font-weight: 700;
+  line-height: 125%;
+  position: relative;
+  margin-bottom: 30px;
+  }
+ 
+ 
+  .roundup-content-list ul li
+{
+  color: #ece8f0;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 160%;
+  margin-bottom: 30px;
+  padding-left: 90px;
+  position: relative;
+list-style: none;}
+  .roundup-content-list ul li::before
+{
+  background: linear-gradient(138.01deg,#6e44d9 6.64%,#1876c5 103.21%);
+  content: "";
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 10px;
+  width: 61px;
+}
+  @media  (min-width: 350px) and (max-width: 992px){
+    .imgobjectic{
+        flex-direction: column;
+    }
+    .imgmb{
+        margin: 0 auto 50px;
+        max-width: 300px;
+      }
+  }

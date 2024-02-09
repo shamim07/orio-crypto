@@ -1,0 +1,25 @@
+.token{
+    background-color: #05010b;
+}
+.token-left-right{display: flex;
+    align-items: center !important;
+margin-top: 40px;}
+.token-right::before{
+    background: linear-gradient(138.01deg,#6e44d9 6.64%,#1876c5 103.21%);
+    content: "";
+    height: 386.46px;
+    position: absolute;
+    width: 386.46px;
+    z-index: 0;
+margin-top: 400px;
+  -webkit-filter: blur(350px);
+  filter: blur(350px);
+  
+}
+
+@media  (min-width: 350px) and (max-width: 992px){
+    .token-left-right{display: flex;
+        flex-direction: column;
+        align-items: center !important;
+    margin-top: 40px;}
+}

@@ -1,0 +1,61 @@
+
+
+.frequently{
+    background-color: #0b0611;
+}
+.frequently::before{
+    
+      position: absolute;
+        content: "";
+        width:300px;
+        height:300px;
+        background: linear-gradient(138.01deg, #6E44D9 6.64%, #1876C5 103.21%);
+        opacity: 0.6;
+        filter: blur(200px);
+     z-index: 0;
+     margin-top: 200px;
+}
+
+.frequestion{
+    border-bottom: 4px solid #131214;
+   
+}
+.frequestion{
+  margin: 0 auto;
+  max-width: 800px;
+  
+}
+.frequently-head{
+    text-align: center;
+    padding-top: 20px;
+}
+.q{
+    padding: 15px;
+}
+.plus{
+    display: flex;
+    align-items: center;
+}
+.con  {
+    /*display: none;*/
+   overflow: hidden;
+  height:0px;
+  transition: height  .3s ease-in-out;
+  } 
+
+  
+  .open  {
+  /*display: block;*/
+    padding: 15px;
+ height:200px ;
+overflow: visible;
+  }  
+   .ques{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+   }
+.ques{
+    padding-top: 50px;
+}
+

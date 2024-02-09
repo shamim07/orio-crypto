@@ -1,0 +1,28 @@
+.tokenomies{
+    background-color: #0b0611;
+    margin-top: 40px;
+    z-index: -1;
+}
+.tokeno-heading{
+    padding-top: 40px;
+    text-align: center;
+}
+
+.sect-title{
+    text-align: center;
+    padding-top: 40px;
+}
+.donut{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media  (min-width: 350px) and (max-width: 992px){
+    .donut{
+        padding-left: 10px;
+    
+     }
+
+}

@@ -1,0 +1,42 @@
+.nee{
+    background: linear-gradient(138.01deg,#6e44d9 6.64%,#1876c5 103.21%);
+   
+   
+}
+.needan{
+    
+    background: url(../../../public/img/need\ any\ help\ background.png);
+ padding-top: 100PX;
+ padding-bottom: 100PX;
+}
+.needa{
+ text-align: center;
+}
+.needbutton{
+    background-color: white;
+    border: 2px solid white;
+}
+ .need.needbt {
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(138.01deg,#6e44d9 6.64%,#1876c5 103.21%);
+      background-clip: border-box;
+    background-clip: text;
+  }
+  .need{
+    line-height: 4;
+  }
+  .need h1 {
+    color: white;
+  }
+  .needbtn{
+    background-color: aliceblue;
+    color: #6e44d9;
+    padding:16px 30px;
+border-radius: 5px;
+border: 2px solid white;
+margin-top: 10px;
+  }
+  .needbtn:hover{
+   background-color: transparent;
+   color: white;
+  }

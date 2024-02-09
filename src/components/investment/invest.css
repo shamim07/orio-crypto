@@ -1,0 +1,67 @@
+.containe{
+   
+   margin-top: 100px;
+    background: linear-gradient(138.01deg,#6e44d9 6.64%,#1876c5 103.21%);
+}
+.invobj{
+    flex: 0 0 auto;
+    width: 50%;
+}
+.invobj h2{
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 135%;
+    margin-bottom: 35px;
+}
+.invamc{
+   
+   display: flex;
+   padding-top: 70px;
+   padding-bottom: 50px;
+}
+.Amc{
+    display: flex;
+    flex-direction: column;
+}
+.ten{
+    display: flex;
+    gap: 30px;
+}
+.fifty{
+    display: flex;
+    gap: 30px;
+    margin-top: 46px;
+}
+a.learn{
+    color: #ece8f0;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 155%;
+    opacity: .8;
+    transition: .3s;
+}
+a.learn:hover{
+    color: #ffff;
+}
+.count{
+    color: #ece8f0;
+  font-size: 55px;
+  font-weight: 300;
+  line-height: 125%;
+}
+.fif{
+    color: #ece8f0;
+  font-size: 55px;
+  font-weight: 300;
+  line-height: 125%;
+}
+@media  (min-width: 350px) and (max-width: 992px){
+
+    .invamc{ flex-direction: column;}
+    .fifty{
+        
+        gap: 30px;
+        margin-top: 46px;
+    }
+}

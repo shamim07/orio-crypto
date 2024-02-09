@@ -1,0 +1,141 @@
+.road-map{
+    background: linear-gradient(138.01deg,#6e44d9 6.64%,#1876c5 103.21%);
+  padding-bottom: 116px;
+  padding-top: 116px;
+}
+.road-head{
+  text-align: center;
+font-size: 40px;
+  font-weight: 800;
+color: #FFFFFF;
+padding-bottom: 30px;
+}
+
+.slides
+{overflow: hidden;
+ display: flex;
+  width: 100%;
+}/*ok*/
+
+ul
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.active{ width: 500%;
+ 
+}
+
+
+
+   .slide {
+    list-style-type: none;
+   overflow: hidden;
+    transition: all 500ms linear;
+    border-right: 2px solid transparent;
+    height: 590px;
+}/*ok*/
+   .slide-content
+   { width: 550px;
+     color: #fff;
+     display: block;
+     padding: 40px 60px;
+   }
+   .slide-content {
+    background: rgb(108, 100, 217);
+    background: linear-gradient(176deg, rgba(108, 100, 217, 1) 0%, rgba(59, 96, 205, 1) 100%);
+  }
+  .slide-content h4 {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 155%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.slide-content p {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    margin-bottom: 30px;
+}
+
+.slide-content p:last-child {
+    margin-bottom: 0px;
+}
+.slide .action
+{
+  background: linear-gradient(180deg,#0c0713,rgba(12,7,19,0));
+  cursor: pointer;
+  display: block;
+  height: 100%;
+  position: relative;}/*ok*/
+  
+  
+
+ 
+ .slide .action span {
+  font-family: "Urbanist";
+  transform: rotate(90deg);
+  position: absolute;
+  width: max-content;
+  top: 20px;
+  left: 50%;
+  height: auto;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 155%;
+  text-transform: uppercase;
+  color: #ADA9B2;
+  transform-origin: center left;
+}
+
+element
+{
+  width: 540.75px;
+}
+@media screen and (min-width: 992px) {
+  .slide {
+      position: relative;
+  }
+
+  .active .slide-content {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      overflow: auto;
+      height: 100%;
+      transition: height .3s ease-in-out;
+    }
+
+}
+
+@media (max-width: 991px) {
+  .slides {
+      display: initial;
+  }
+
+  .slide {
+      width: 100% !important;
+      margin-bottom: 15px;
+      height: auto;
+      border-radius: 10px;
+  }
+
+  .slide-content {
+      width: 100% !important;
+      padding: 25px;
+      font-size: 95%;
+  }
+
+  .action {
+      opacity: 0;
+      visibility: hidden;
+  }
+
+}
