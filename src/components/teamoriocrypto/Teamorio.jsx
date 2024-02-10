@@ -32,7 +32,7 @@ function Teamorio() {
           </div>{/** "teamphoto1"*/}
           <div className="teamphoto2" data-aos="fade-up" data-aos-duration="1100">
             <div className="teampho4">
-              <div className="teamimg"> <figure><img src="../../../public/img/teamorio4.png" alt="" /></figure></div>
+              <div className="teamimg"> <figure><img src="/img/teamorio4.png" alt="" /></figure></div>
             <h5 className="text-white " >CUSTODIAN</h5>
             <h6  >SEBA Bank AG</h6>
             </div>{/**"teampho4" */}

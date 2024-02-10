@@ -41,7 +41,7 @@ function Nav() {
     <div className={fix ? 'heading fixed' : 'heading'}>
       
         <div className="naviga   container" >
-          <div className="logoo"><img src="../../../public/img/orionlogo.svg" alt="" /></div>
+          <div className="logoo"><img src="/img/orionlogo.svg" alt="" /></div>
           <div>
              <ul className='nav-link'>
               <li className="nav-itm"><Link to="Investment">Investment</Link></li>
@@ -62,7 +62,7 @@ function Nav() {
         </div>{/**"naviga" */}
         <div className= {isMobile ? 'mobile-menu' : 'menu-mm'} onClick={() => setIsMobile(false)}>
             <div className="mb-logo">
-              <div className="mbimg"><img src="../../../public/img/orionlogo.svg" alt="" /></div>
+              <div className="mbimg"><img src="/img/orionlogo.svg" alt="" /></div>
               <div className="mb-menu"><FaTimes size={20} className="fatimes" /></div>
             </div>{/**mb-logo */}
   
